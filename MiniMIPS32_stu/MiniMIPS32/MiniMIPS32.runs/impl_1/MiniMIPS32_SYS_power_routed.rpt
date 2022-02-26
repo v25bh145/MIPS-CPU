@@ -1,0 +1,195 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date             : Sun Jul  4 20:29:04 2021
+| Host             : LAPTOP-TLHLP7T6 running 64-bit major release  (build 9200)
+| Command          : report_power -file MiniMIPS32_SYS_power_routed.rpt -pb MiniMIPS32_SYS_power_summary_routed.pb -rpx MiniMIPS32_SYS_power_routed.rpx
+| Design           : MiniMIPS32_SYS
+| Device           : xc7a35tftg256-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+----------------------------------+
+| Total On-Chip Power (W)  | 44.853 (Junction temp exceeded!) |
+| Design Power Budget (W)  | Unspecified*                     |
+| Power Budget Margin (W)  | NA                               |
+| Dynamic (W)              | 44.367                           |
+| Device Static (W)        | 0.486                            |
+| Effective TJA (C/W)      | 4.9                              |
+| Max Ambient (C)          | 0.0                              |
+| Junction Temperature (C) | 125.0                            |
+| Confidence Level         | Low                              |
+| Setting File             | ---                              |
+| Simulation Activity File | ---                              |
+| Design Nets Matched      | NA                               |
++--------------------------+----------------------------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Slice Logic              |    15.112 |     3130 |       --- |             --- |
+|   LUT as Logic           |    13.726 |     1296 |     20800 |            6.23 |
+|   LUT as Distributed RAM |     0.804 |      128 |      9600 |            1.33 |
+|   F7/F8 Muxes            |     0.486 |      409 |     32600 |            1.25 |
+|   CARRY4                 |     0.063 |       14 |      8150 |            0.17 |
+|   BUFG                   |     0.016 |        2 |        32 |            6.25 |
+|   Register               |     0.016 |     1112 |     41600 |            2.67 |
+|   Others                 |     0.000 |       10 |       --- |             --- |
+| Signals                  |    22.793 |     2711 |       --- |             --- |
+| DSPs                     |     6.458 |       10 |        90 |           11.11 |
+| I/O                      |     0.005 |        4 |       170 |            2.35 |
+| Static Power             |     0.486 |          |           |                 |
+| Total                    |    44.853 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |    44.707 |      44.366 |      0.341 |
+| Vccaux    |       1.800 |     0.053 |       0.000 |      0.053 |
+| Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.010 |       0.000 |      0.010 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 4.9                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.6                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++-----------------------------------+-----------+
+| Name                              | Power (W) |
++-----------------------------------+-----------+
+| MiniMIPS32_SYS                    |    44.367 |
+|   CPU                             |    40.184 |
+|     ALUSRCAMUX                    |     2.363 |
+|     CONTROLUNIT                   |    18.537 |
+|     MAINALU                       |     9.211 |
+|     PCBRANCH                      |     0.050 |
+|     PCPLUS4                       |     0.090 |
+|     PCTRIGGER                     |     0.281 |
+|     REGFILE32                     |     9.652 |
+|   data_ram                        |     1.245 |
+|     U0                            |     1.245 |
+|       synth_options.dist_mem_inst |     1.245 |
+|         gen_sp_ram.spram_inst     |     1.245 |
+|           ram_reg_0_255_0_0       |     0.035 |
+|           ram_reg_0_255_10_10     |     0.038 |
+|           ram_reg_0_255_11_11     |     0.039 |
+|           ram_reg_0_255_12_12     |     0.038 |
+|           ram_reg_0_255_13_13     |     0.038 |
+|           ram_reg_0_255_14_14     |     0.039 |
+|           ram_reg_0_255_15_15     |     0.043 |
+|           ram_reg_0_255_16_16     |     0.040 |
+|           ram_reg_0_255_17_17     |     0.037 |
+|           ram_reg_0_255_18_18     |     0.039 |
+|           ram_reg_0_255_19_19     |     0.044 |
+|           ram_reg_0_255_1_1       |     0.038 |
+|           ram_reg_0_255_20_20     |     0.035 |
+|           ram_reg_0_255_21_21     |     0.044 |
+|           ram_reg_0_255_22_22     |     0.042 |
+|           ram_reg_0_255_23_23     |     0.040 |
+|           ram_reg_0_255_24_24     |     0.041 |
+|           ram_reg_0_255_25_25     |     0.037 |
+|           ram_reg_0_255_26_26     |     0.037 |
+|           ram_reg_0_255_27_27     |     0.039 |
+|           ram_reg_0_255_28_28     |     0.036 |
+|           ram_reg_0_255_29_29     |     0.037 |
+|           ram_reg_0_255_2_2       |     0.034 |
+|           ram_reg_0_255_30_30     |     0.038 |
+|           ram_reg_0_255_31_31     |     0.037 |
+|           ram_reg_0_255_3_3       |     0.040 |
+|           ram_reg_0_255_4_4       |     0.041 |
+|           ram_reg_0_255_5_5       |     0.038 |
+|           ram_reg_0_255_6_6       |     0.036 |
+|           ram_reg_0_255_7_7       |     0.040 |
+|           ram_reg_0_255_8_8       |     0.041 |
+|           ram_reg_0_255_9_9       |     0.044 |
+|   inst_rom                        |     2.830 |
+|     U0                            |     2.830 |
+|       synth_options.dist_mem_inst |     2.830 |
+|         gen_rom.rom_inst          |     2.830 |
++-----------------------------------+-----------+
+
+

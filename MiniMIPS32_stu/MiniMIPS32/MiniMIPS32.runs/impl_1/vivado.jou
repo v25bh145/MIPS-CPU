@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jul  4 20:27:41 2021
+# Process ID: 28452
+# Current directory: C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.runs/impl_1
+# Command line: vivado.exe -log MiniMIPS32_SYS.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MiniMIPS32_SYS.tcl -notrace
+# Log file: C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.runs/impl_1/MiniMIPS32_SYS.vdi
+# Journal file: C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MiniMIPS32_SYS.tcl -notrace

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1625401539">
+  <File Type="BITSTR-BMM" Name="MiniMIPS32_SYS_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="MiniMIPS32_SYS_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="MiniMIPS32_SYS_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="MiniMIPS32_SYS_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="MiniMIPS32_SYS.tcl"/>
+  <File Type="OPT-TIMING" Name="MiniMIPS32_SYS_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="MiniMIPS32_SYS_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="MiniMIPS32_SYS_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="MiniMIPS32_SYS_reports.tcl"/>
+  <File Type="OPT-DRC" Name="MiniMIPS32_SYS_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="MiniMIPS32_SYS.hwdef"/>
+  <File Type="PWROPT-DCP" Name="MiniMIPS32_SYS_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="MiniMIPS32_SYS_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="MiniMIPS32_SYS_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="MiniMIPS32_SYS_placed.dcp"/>
+  <File Type="PLACE-IO" Name="MiniMIPS32_SYS_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="MiniMIPS32_SYS_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="MiniMIPS32_SYS_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="MiniMIPS32_SYS_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="MiniMIPS32_SYS_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="MiniMIPS32_SYS_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="MiniMIPS32_SYS_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="MiniMIPS32_SYS.bgn"/>
+  <File Type="PLACE-TIMING" Name="MiniMIPS32_SYS_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="MiniMIPS32_SYS_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="MiniMIPS32_SYS.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="MiniMIPS32_SYS_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="MiniMIPS32_SYS_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="MiniMIPS32_SYS_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="MiniMIPS32_SYS.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="MiniMIPS32_SYS_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="MiniMIPS32_SYS_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="MiniMIPS32_SYS_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="MiniMIPS32_SYS_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="MiniMIPS32_SYS_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="MiniMIPS32_SYS_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="MiniMIPS32_SYS.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="MiniMIPS32_SYS_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="MiniMIPS32_SYS.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="MiniMIPS32_SYS_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="MiniMIPS32_SYS_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="MiniMIPS32_SYS.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="MiniMIPS32_SYS_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="MiniMIPS32_SYS_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="MiniMIPS32_SYS_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="MiniMIPS32_SYS_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="MiniMIPS32_SYS_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="MiniMIPS32_SYS_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="MiniMIPS32_SYS_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="MiniMIPS32_SYS_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="MiniMIPS32_SYS_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="MiniMIPS32_SYS_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="MiniMIPS32_SYS_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="MiniMIPS32_SYS_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="MiniMIPS32_SYS_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="MiniMIPS32_SYS_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="MiniMIPS32_SYS_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="MiniMIPS32_SYS_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="MiniMIPS32_SYS_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="MiniMIPS32_SYS_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="MiniMIPS32_SYS_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="MiniMIPS32_SYS.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="MiniMIPS32_SYS_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="MiniMIPS32_SYS.rbt"/>
+  <File Type="BITSTR-NKY" Name="MiniMIPS32_SYS.nky"/>
+  <File Type="BG-DRC" Name="MiniMIPS32_SYS.drc"/>
+  <File Type="RDI-RDI" Name="MiniMIPS32_SYS.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/MiniMIPS32/defines.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/defines.sv"/>
+        <Attr Name="ImportTime" Val="1622347848"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MiniMIPS32/MiniMIPS32_SYS.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/MiniMIPS32_SYS.sv"/>
+        <Attr Name="ImportTime" Val="1622380611"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MiniMIPS32/MiniMIPS32.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../normal/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/MiniMIPS32.sv"/>
+        <Attr Name="ImportTime" Val="1622366202"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/benchmark/5.sort/board/sort_board_data.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/benchmark/5.sort/board/sort_board_inst.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/benchmark/1.mem/mem_inst.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/benchmark/1.mem/mem_data.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/sign_extend_32.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/reg_file_32.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_2.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rca.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fulladder.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control_unit.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PC_trigger.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/big2little.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/benchmark/2.i-type/i-type_inst.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/benchmark/3.r-type/r-type_inst.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/benchmark/4.branch/branch_inst.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/data_ram/data_ram.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MiniMIPS32_SYS"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pin.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="inst_rom"/>
+</GenRun>

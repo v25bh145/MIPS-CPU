@@ -1,0 +1,74 @@
+`timescale 1ns / 1ps
+
+module reg_file();
+
+    logic clk;
+    logic rst;
+    int i;
+    logic [4 : 0] A1;
+    logic [4 : 0] A2;
+    logic [4 : 0] A3;
+    logic [31 : 0] WD3;
+    logic WE3;
+    logic [31 : 0] RD1;
+    logic [31 : 0] RD2;
+    
+    reg_file_32 REGFILE (
+        .A1(A1), 
+        .A2(A2), 
+        .A3(A3), 
+        .WD3(WD3), 
+        .WE3(WE3), 
+        .RD1(RD1), 
+        .RD2(RD2), 
+        .cpu_clk(clk), 
+        .cpu_rst_n(rst)
+    );
+    
+    initial begin
+        rst = 0;
+        clk = 0;
+        
+        #20;
+            rst = 1;
+        #20;
+            rst = 0;
+
+        for(i = 0; i <= 2000; i++) begin
+            #20;
+            if(i % 2 == 0)
+                clk = 0;
+            else
+                clk = 1;
+            if(i == 5) begin
+                A3 = 5'b01010;
+                WE3 = 1;
+                WD3 = 32'b1111_0000_1111_0000_0101_1010_1010_0101;
+            end else if(i == 7) begin
+                A3 = 5'b01111;
+                WE3 = 1;
+                WD3 = 32'b1011_0000_1011_0000_0101_1010_1010_0101;
+            end else if(i == 9) begin
+                A1 = 5'b01010;
+                A2 = 5'b01111;
+                WE3 = 0;
+            end else if(i == 11) begin
+                A3 = 5'b01111;
+                WE3 = 1;
+                WD3 = 32'b0;
+            end else if(i == 13) begin
+                A1 = 5'b01010;
+                A2 = 5'b01111;
+                WE3 = 0;
+            end else begin
+                A1 = 0;
+                A2 = 0;
+                A3 = 0;
+                WD3 = 0;
+                WE3 = 0;
+            end
+        end
+    end
+
+
+endmodule

@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/defines.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/MiniMIPS32_SYS.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MiniMIPS32_SYS
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/MiniMIPS32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MiniMIPS32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/sign_extend_32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sign_extend_32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/reg_file_32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file_32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/mux_2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/rca.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rca
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/fulladder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fulladder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/control_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/PC_trigger.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_trigger
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/big2little.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module big2little
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sim_1/imports/MiniMIPS32/MiniMIPS32_SYS_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MiniMIPS32_SYS_tb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sim_1/new/reg_file.tb" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reg_file

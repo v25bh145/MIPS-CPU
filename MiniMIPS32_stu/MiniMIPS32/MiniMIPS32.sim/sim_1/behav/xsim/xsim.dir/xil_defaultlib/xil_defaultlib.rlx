@@ -1,0 +1,21 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.sim/sim_1/behav/xsim/glbl.v,1507081072,verilog,,,,glbl,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sim_1/imports/MiniMIPS32/MiniMIPS32_SYS_tb.sv,1625400176,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sim_1/new/reg_file.tb,,MiniMIPS32_SYS_tb,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sim_1/new/reg_file.tb,1625373024,systemVerilog,,,,reg_file,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/MiniMIPS32.sv,1625401045,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/sign_extend_32.sv,,MiniMIPS32,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/MiniMIPS32_SYS.sv,1622464246,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/MiniMIPS32.sv,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/defines.sv,MiniMIPS32_SYS,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/defines.sv,1622347848,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/imports/MiniMIPS32/MiniMIPS32_SYS.sv,,,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/ip/data_ram/sim/data_ram.v,1625394022,verilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/ip/inst_rom/sim/inst_rom.v,,data_ram,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/ip/inst_rom/sim/inst_rom.v,1625393356,verilog,,,,inst_rom,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/PC_trigger.sv,1625379573,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/big2little.sv,,PC_trigger,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/alu.sv,1625387837,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/rca.sv,,alu,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/big2little.sv,1625377804,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sim_1/imports/MiniMIPS32/MiniMIPS32_SYS_tb.sv,,big2little,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/control_unit.sv,1625392690,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/PC_trigger.sv,,control_unit,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/fulladder.sv,1625367482,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/control_unit.sv,,fulladder,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/mux_2.sv,1625370731,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/alu.sv,,mux_2,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/rca.sv,1625367480,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/fulladder.sv,,rca,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/reg_file_32.sv,1625401279,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/mux_2.sv,,reg_file_32,,,,,,,,
+C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/sign_extend_32.sv,1625387048,systemVerilog,,C:/Users/v25bh/Desktop/Lab5/MiniMIPS32_stu/MiniMIPS32/MiniMIPS32.srcs/sources_1/new/reg_file_32.sv,,sign_extend_32,,,,,,,,
